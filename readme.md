@@ -22,6 +22,7 @@ Figma などで作成された LP モック画像 6枚をテスト対象とし�
 （※ 画面デザインそのものは Figma の UI テンプレートを「モック」として利用しており、このリポジトリの主題はあくまでテスト設計・ドキュメンテーションになります）
 Figma の UI テンプレートの参照元:  
 [Community File](https://www.figma.com/community/file/1202426685198179521)
+
 ---
 
 ## 2. テストの目的
@@ -140,7 +141,8 @@ Figma の UI テンプレートの参照元:
 
 ```bash
 npm install
-npx playwright install
+npx playwright install```
 
 本リポジトリは、Web フロントエンドまわりの手動テスト設計が問題なくできることを示すためのポートフォリオです。
 SDET / QA エンジニアとしての経験の一部を切り出したサンプルとしてご覧ください。
+
