@@ -125,7 +125,7 @@ Figma の UI テンプレートの参照元:
 
 ### 6.1 ファイル
 
-- `tests/saasto-links.spec.ts`  
+- `saasto-links.spec.ts`  
   - ヘッダーナビ + CTA のリンク遷移を確認
   - 例外時に **どのステップで失敗したか分かるロギング (`runStep`)** 付き
 
@@ -141,8 +141,10 @@ Figma の UI テンプレートの参照元:
 
 ```bash
 npm install
-npx playwright install```
+npx playwright install
+```
 
 本リポジトリは、Web フロントエンドまわりの手動テスト設計が問題なくできることを示すためのポートフォリオです。
 SDET / QA エンジニアとしての経験の一部を切り出したサンプルとしてご覧ください。
+
 
